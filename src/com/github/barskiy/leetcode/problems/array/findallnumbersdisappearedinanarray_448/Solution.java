@@ -12,6 +12,8 @@ public class Solution {
         System.out.println(res);
     }
 
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public List<Integer> findDisappearedNumbersOptimized(int[] nums) {
         List<Integer> res = new ArrayList<>();
 
@@ -32,7 +34,7 @@ public class Solution {
     // Time Complexity: O(n)
     // Space Complexity: O(n)
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        Set<Integer> values = new HashSet<Integer>();
+        Set<Integer> values = new HashSet<>();
         for(int i = 1; i <= nums.length; i++) {
             values.add(i);
         }
