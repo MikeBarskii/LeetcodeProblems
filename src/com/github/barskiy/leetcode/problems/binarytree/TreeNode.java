@@ -9,16 +9,24 @@ public class TreeNode {
         val = x;
     }
 
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
+    }
 
     /*
-             1
-           /  \
-          2    3
-         / \    \
-        4   5    8
-           / \   /
-          6   7 9
-     */
+                 1
+               /  \
+              2    3
+             / \    \
+            4   5    8
+               / \   /
+              6   7 9
+         */
     public static TreeNode getExample() {
         TreeNode node1 = new TreeNode(1);
         TreeNode node2 = new TreeNode(2);
@@ -71,5 +79,40 @@ public class TreeNode {
         node4_1.right = node1;
 
         return node5;
+    }
+
+    /*
+           8
+         /  \
+        5    4
+       / \    \
+      9   7    11
+        /  \   /
+       1   12 3
+          /
+         2
+ */
+    public static TreeNode getExample2() {
+        TreeNode node8 = new TreeNode(8);
+        TreeNode node5 = new TreeNode(5);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node9 = new TreeNode(9);
+        TreeNode node7 = new TreeNode(7);
+        TreeNode node11 = new TreeNode(11);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node12 = new TreeNode(12);
+        TreeNode node2 = new TreeNode(2);
+
+        node8.left = node5;
+        node8.right = node4;
+        node5.left = node9;
+        node5.right = node7;
+        node4.right = node11;
+        node11.left = node3;
+        node7.left = node1;
+        node7.right = node12;
+        node12.left = node2;
+        return node8;
     }
 }
