@@ -1,5 +1,7 @@
 package com.github.barskiy.leetcode.problems.linkedlist.swapnodesinpairs_24;
 
+import com.github.barskiy.leetcode.problems.linkedlist.ListNode;
+
 public class Solution {
 
     // Time Complexity: O(n)
@@ -26,12 +28,16 @@ public class Solution {
         return dummy.next;
     }
 
-    private static class ListNode {
-        int val;
-        ListNode next;
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
+    public ListNode swapPairsRecursively(ListNode head) {
+        if (head == null || head.next == null) return head;
 
-        ListNode(int x) {
-            val = x;
-        }
+        ListNode next = head.next;
+        head.next = next.next;
+        next.next = head;
+
+        head.next = swapPairsRecursively(head.next);
+        return next;
     }
 }
