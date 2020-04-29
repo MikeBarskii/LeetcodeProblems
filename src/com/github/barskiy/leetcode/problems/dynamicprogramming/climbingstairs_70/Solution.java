@@ -6,6 +6,7 @@ public class Solution {
     // Space Complexity: O(1)
     public int climbStairs(int n) {
         // Fibonacci
+        if (n == 1) return 1;
         int first = 1, second = 2;
 
         for (int i = 3; i <= n; i++) {
