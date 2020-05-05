@@ -1,5 +1,5 @@
 # Leetcode problems solving
-My goal is to solve 500 problems at (leetcode.com)[https://leetcode.com/]
+My goal is to solve 500 problems at https://leetcode.com/
 
 Solved: 149/500
 
