@@ -8,6 +8,8 @@ public class Solution {
         System.out.println(res);
     }
 
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public int lengthOfLastWord(String s) {
         int res = 0;
         String trimmed = s.trim();
