@@ -1,10 +1,10 @@
 # Leetcode problems solving
 My goal is to solve 500 problems at https://leetcode.com/
 
-Solved: 149/500
+Solved: 152/500
 
-- Easy: 97
-- Medium: 51
+- Easy: 98
+- Medium: 53
 - Hard: 1
 
 Link to my personal page:
