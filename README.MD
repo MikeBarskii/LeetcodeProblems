@@ -1,9 +1,9 @@
 # Leetcode problems solving
 My goal is to solve 500 problems at https://leetcode.com/
 
-Solved: 152/500
+Solved: 155/500
 
-- Easy: 98
+- Easy: 101
 - Medium: 53
 - Hard: 1
 

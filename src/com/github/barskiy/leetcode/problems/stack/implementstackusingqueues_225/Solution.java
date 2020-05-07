@@ -26,7 +26,7 @@ public class Solution {
 
         /** Removes the element on top of the stack and returns that element. */
         public int pop() {
-            return queue.element();
+            return queue.remove();
         }
 
         /** Get the top element. */
