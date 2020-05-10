@@ -1,4 +1,4 @@
-package com.github.barskiy.leetcode.problems.binarytree.validatebinarysearchtree_98;
+package com.github.barskiy.leetcode.problems.binarysearchtree.validatebinarysearchtree_98;
 
 import com.github.barskiy.leetcode.problems.binarytree.TreeNode;
 

@@ -1,4 +1,4 @@
-package com.github.barskiy.leetcode.problems.binarytree.searchinbst_700;
+package com.github.barskiy.leetcode.problems.binarysearchtree.searchinbst_700;
 
 import com.github.barskiy.leetcode.problems.binarytree.TreeNode;
 
