@@ -1,8 +1,8 @@
-package com.github.barskiy.leetcode.explore.linkedlist.singlylinkedlist.classicproblems;
+package com.github.barskiy.leetcode.problems.linkedlist.oddevenlinkedlist_328;
 
 import com.github.barskiy.leetcode.explore.linkedlist.singlylinkedlist.twopointerproblems.LinkedListCycle.ListNode;
 
-public class OddEvenLinkedList {
+public class Solution {
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null)
             return head;
