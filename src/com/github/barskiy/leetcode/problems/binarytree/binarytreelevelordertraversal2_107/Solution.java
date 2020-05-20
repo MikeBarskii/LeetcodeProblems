@@ -1,4 +1,4 @@
-package com.github.barskiy.leetcode.problems.binarysearch.binarytreelevelordertraversal2_107;
+package com.github.barskiy.leetcode.problems.binarytree.binarytreelevelordertraversal2_107;
 
 import com.github.barskiy.leetcode.problems.binarytree.TreeNode;
 
